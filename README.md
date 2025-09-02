@@ -1,27 +1,18 @@
-# 🚀 create-node-with-ai
+# 🚀 CREATE NODE WITH AI
 
-A CLI tool to scaffold a modular Node.js backend with AI
-
---
+A node cli package dedicated to setup node backend with boilerplate code
 
 ## ✨ Features
 
-- **Interactive CLI prompts** to configure your backend
-- **Language support**: JavaScript or TypeScript
-- **Database options**: MongoDB, MySQL, PostgreSQL
-- **Project type selection**:
-  - **Informative** — optional login system
-  - **E-commerce** — pre-built User, Product, Cart, Order, and Checkout modules
-- **JWT authentication** (when login is selected)
-- **MVC folder structure** for scalability
-- **Environment variable support** via `.env`
-
----
+- **Interactive CLI prompts** to configure your node backend
+- **Language support:** JavaScript and TypeScript
 
 ## 📦 Installation
 
-You don’t need to install globally. Just run:
+Simply run the command
 
 ```bash
 npx create-node-with-ai
 ```
+
+Follow the instruction cli is presenting and complete your setup

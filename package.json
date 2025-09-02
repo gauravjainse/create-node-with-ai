@@ -1,0 +1,38 @@
+{
+  "name": "create-node-with-ai",
+  "version": "1.0.3",
+  "description": "A CLI tool for the node backend boilerplate setup",
+  "main": "index.js",
+  "bin": {
+    "create-node-with-ai": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravjainse/create-node-with-ai.git"
+  },
+  "keywords": [
+    "node with ai",
+    "create node with ai",
+    "node boilerplate",
+    "node cli",
+    "gaurav jain"
+  ],
+  "author": "Gaurav Jain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gauravjainse/create-node-with-ai/issues"
+  },
+  "homepage": "https://github.com/gauravjainse/create-node-with-ai#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "inquirer": "^12.9.4",
+    "prompts": "^2.4.2"
+  }
+}
